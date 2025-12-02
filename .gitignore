@@ -1,3 +1,11 @@
-# Exclude temporary Jupyter and system files
+# Ignore Jupyter/IPython generated files
+.ipynb_checkpoints/
+*.log
+.local/
+.jupyter/
+.ipython/
+
+# Ignore common OS files
+.DS_Store# Exclude temporary Jupyter and system files
 *.log
 .ipynb_checkpoints/

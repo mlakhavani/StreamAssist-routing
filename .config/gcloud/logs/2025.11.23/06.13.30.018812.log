@@ -1,8 +1,0 @@
-2025-11-23 06:13:30,023 DEBUG    root            Loaded Command Group: ['gcloud', 'config']
-2025-11-23 06:13:30,035 DEBUG    root            Loaded Command Group: ['gcloud', 'config', 'get_value']
-2025-11-23 06:13:30,038 DEBUG    root            Running [gcloud.config.get-value] with arguments: [SECTION/PROPERTY: "project"]
-2025-11-23 06:13:30,044 DEBUG    root            Chosen display Format:value(.)
-2025-11-23 06:13:30,044 INFO     root            Display format: "value(.)"
-2025-11-23 06:13:30,045 INFO     ___FILE_ONLY___ meera-demos
-
-2025-11-23 06:13:30,045 DEBUG    root            SDK update checks are disabled.
