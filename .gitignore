@@ -1,0 +1,3 @@
+# Exclude temporary Jupyter and system files
+*.log
+.ipynb_checkpoints/
