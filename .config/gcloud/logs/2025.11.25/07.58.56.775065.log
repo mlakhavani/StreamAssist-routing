@@ -1,0 +1,20 @@
+2025-11-25 07:58:56,798 DEBUG    root            Loaded Command Group: ['gcloud', 'projects']
+2025-11-25 07:58:56,807 DEBUG    root            Loaded Command Group: ['gcloud', 'projects', 'describe']
+2025-11-25 07:58:56,810 DEBUG    root            Running [gcloud.projects.describe] with arguments: [--format: "value(projectNumber)", PROJECT_ID_OR_NUMBER: "meera-demos"]
+2025-11-25 07:58:56,869 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/?recursive=true
+2025-11-25 07:58:56,871 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2025-11-25 07:58:56,873 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/?recursive=true HTTP/11" 200 154
+2025-11-25 07:58:56,874 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/token
+2025-11-25 07:58:56,877 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/token HTTP/11" 200 870
+2025-11-25 07:58:56,906 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/?recursive=true
+2025-11-25 07:58:56,907 DEBUG    urllib3.connectionpool Starting new HTTP connection (1): metadata.google.internal:80
+2025-11-25 07:58:56,908 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/?recursive=true HTTP/11" 200 154
+2025-11-25 07:58:56,909 DEBUG    google.auth.transport.requests Making request: GET http://metadata.google.internal/computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/token
+2025-11-25 07:58:56,911 DEBUG    urllib3.connectionpool http://metadata.google.internal:80 "GET /computeMetadata/v1/instance/service-accounts/797032279537-compute@developer.gserviceaccount.com/token HTTP/11" 200 870
+2025-11-25 07:58:56,931 DEBUG    urllib3.connectionpool Starting new HTTPS connection (1): cloudresourcemanager.googleapis.com:443
+2025-11-25 07:58:56,981 DEBUG    urllib3.connectionpool https://cloudresourcemanager.googleapis.com:443 "GET /v1/projects/meera-demos?alt=json HTTP/11" 200 None
+2025-11-25 07:58:56,983 DEBUG    root            Chosen display Format:default value(projectNumber)
+2025-11-25 07:58:56,984 INFO     root            Display format: "default value(projectNumber)"
+2025-11-25 07:58:57,001 INFO     ___FILE_ONLY___ 797032279537
+
+2025-11-25 07:58:57,002 DEBUG    root            SDK update checks are disabled.
