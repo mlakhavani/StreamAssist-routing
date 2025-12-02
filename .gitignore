@@ -1,4 +1,14 @@
-# Ignore Jupyter/IPython generated files
+# Ignore everything by default
+*
+
+# EXCEPT for the .gitignore file itself
+!/.gitignore
+
+# EXCEPT for all files ending in .ipynb
+!*.ipynb
+
+# Except for any files in the root folder, if you have non-notebook items there
+!/# Ignore Jupyter/IPython generated files
 .ipynb_checkpoints/
 *.log
 .local/
